@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			PLIVO | PRICE CALCULATOR | COMPARISON BETWEEN PLIVO ANDD TWILLIO
+		</title>
+		<meta charset="utf-8">
+		<!-- get scaling on the basis of viewport-->
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<!-- download font 'open sans' -->
+	    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+		<!-- custom css and js -->	
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<script src="js/data.js"></script>
+		<script src="js/app.js"></script>
+	</head>
+	<body>
+		<div class="heading">
+			<div class="logo"></div>
+			<div class="sub-title">Plivo vs Twilio | price calculator</div>
+		</div>
+		<div class="wrapper">
+			<select name="country" class="input-data" id="country-data">
+				<option>IN</option>
+				<option>OD</option>
+				<option>US</option>
+				<option>UK</option>
+				<option>OR</option>
+				<option>AU</option>
+			</select>
+			<input type="text" class="input-data" name="usage" id="usage-data" placeholder="Input your SMS usage Per Month">
+		</div>
+		<div class="table">
+			<div class="row header">
+				<div class="col">
+					Monthly spend using Plivo
+				</div>
+				<div class="col">
+					Monthly spend using Twilio
+				</div>
+				<div class="col">
+					Annual Savings with Plivo
+				</div>
+			</div>
+			<div class="row" id="pricing-data">
+				<div class="col">
+					$1430
+				</div>
+				<div class="col">
+					$350
+				</div>
+				<div class="col">
+					$14030
+				</div>
+			</div>
+			<div class="loading-message shown" id="loading-message">
+				Enter your monthly usage of outbound SMS to find out your yearly savings<br/>
+				<h6>Prices may differ in different countries</h6>
+			</div>
+		</div>
+	</body>
+</html>
