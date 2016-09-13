@@ -48,6 +48,15 @@ window.onload = function (argument) {
 		app.setCountry(this);
 		showLoader();	
 	});
+	document.getElementById('usage-data').addEventListener('blur',function(e) {
+		this.value = this.value.replace(/[a-zA-z]/g, "");
+		if (this.value > 0){
+			app.setUsage(this);
+			hideLoader();
+		}else{
+			showLoader();
+		}
+	});
 	document.getElementById('usage-data').addEventListener('keyup',function(e) {
 		this.value = this.value.replace(/[a-zA-z]/g, "");
 		if ((e.keyCode <= 57 && e.keyCode >= 48) || e.keyCode == 8 ) {
@@ -57,9 +66,6 @@ window.onload = function (argument) {
 			}else{
 				showLoader();
 			}
-
-		}else{
-
 		}
 	});
 }
