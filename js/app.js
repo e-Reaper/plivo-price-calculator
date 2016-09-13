@@ -51,7 +51,6 @@ window.onload = function (argument) {
 	document.getElementById('usage-data').addEventListener('keyup',function(e) {
 		this.value = this.value.replace(/[a-zA-z]/g, "");
 		if ((e.keyCode <= 57 && e.keyCode >= 48) || e.keyCode == 8 ) {
-			console.log(this.value);
 			if (this.value > 0){
 				app.setUsage(this);
 				hideLoader();
