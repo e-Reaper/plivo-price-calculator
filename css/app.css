@@ -85,8 +85,8 @@ body {
     body .wrapper select.input-data {
       width: calc(100% + 2px); }
   body .table {
-    width: 90%;
-    margin: 5%; } }
+    width: calc(90% + 5px);
+    margin: 0 auto; } }
 /**** media queries tablets****/
 @media only screen and (max-width: 992px) {
   body .wrapper {
