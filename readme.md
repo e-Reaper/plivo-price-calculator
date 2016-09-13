@@ -14,3 +14,10 @@ plivo price calculator is a dummy price calculator app which does a price compar
 * __open the index.html with google chrome or any browser__ 
 
     inside the project folder you will find index.html , that file can be directly opened in any browser to access the application . 
+
+
+### Demo 
+
+Please find the demo link mentioned below :
+
+[plivo-price-calculator demo page](https://e-reaper.github.io/plivo-price-calculator/). 
