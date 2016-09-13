@@ -1,4 +1,4 @@
-# plivo-price-calculator
+# [plivo-price-calculator](https://e-reaper.github.io/plivo-price-calculator/)
 
 plivo price calculator is a dummy price calculator app which does a price comparison between __plivo__ and __twillio__ . You can get the price detail on the basis of country and monthly SMS outbound usage . 
 
